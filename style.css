@@ -1,0 +1,406 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(58, 56, 56);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-inline: 50px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    overflow-y: hidden;
+}
+
+.main-container{
+    width: 100%;
+    height: auto;
+    /* background-color: white; */
+    display: flex;
+}
+
+.left-part{
+    width: 40%;
+    height: 100vh;
+    background-color: rgb(251, 164, 4);
+    padding-left: 70px;
+    padding-top: 10px;
+}
+
+.right-part{
+    width: 60%;
+    height: 100vh;
+    background-color: black;
+}
+
+.left-part h2{
+    color: white;
+    font-size: 30px;
+}
+
+.left-part .black{
+    padding-top: 170px;
+    font-size: 50px;
+}
+
+.left-part .white{
+    color: white;
+    font-size: 50px;
+}
+
+hr{
+    border: 2px solid black;
+    width: 170px;
+}
+
+.left-part p{
+    text-align:justify;
+    padding-right: 100px;
+    padding-top: 10px;
+    font-weight: 700;
+}
+
+.left-part button{
+    margin-top: 20px;
+}
+
+.left-part .sign-up{
+    width: 130px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    border-radius: 6px;
+}
+
+.left-part .sign-in{
+    width: 130px;
+    height: 30px;
+    background-color: transparent;
+    /* color: white; */
+    border-radius: 6px;
+    margin-left: 140px;
+}
+
+.right-part .navbar ul{
+    width: 100%;
+    height: auto;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+    padding-top: 20px;
+}
+
+.right-part ul li button{
+    width: 200px;
+    height: 20px;
+    background-color: lightgray;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.right-part h1{
+    color: white;
+    padding-inline: 60px;
+    padding-top: 50px;
+    font-size: 50px;
+}
+
+.right-part button{
+    width: 150px;
+    height: 30px;
+    margin-inline: 90px;
+    margin-top: 30px;
+    border-radius: 5px;  
+}
+
+.right-part span{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.right-part h3{
+    color: rgb(208, 202, 202);
+    padding-inline: 90px;
+    padding-top: 5px;
+    font-size: 20px;
+}
+
+.right-part .image-1{
+    width: 400px;
+    height: 200px;
+    padding-left: 50px;
+    /* border: 1px solid red; */
+    /* padding-top: 10px; */
+}
+
+.right-part .image-2{
+    width: 500px;
+    height: 250px;
+    padding-left: 200px;
+    /* border: 1px solid red; */
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+/* media query between 350px and 440px */
+
+
+@media((min-width:350px) and (max-width:440px)){
+
+    .main-container{
+        width: 100%;
+        height: auto;
+        
+    }
+    
+    .left-part{
+        width: 100%;
+        height: auto;
+        padding-left: 30px;
+        padding-top: 10px;
+    }
+    
+    .right-part{
+        width: 100%;
+        height: auto;
+    }
+    
+    .left-part h2{
+        font-size: 15px;
+    }
+    
+
+    .left-part .black{
+        padding-top: 50px;
+        font-size: 20px;
+    }
+    
+    .left-part .white{
+        font-size: 20px;
+    }
+    
+    .left-part p{
+        /* text-align:justify; */
+        padding-right: 45px;
+        padding-top: 15px;
+        font-weight: 400;
+        font-size: 12px;
+    }
+
+    .left-part span{
+        width: 100%;
+    }
+    
+    .left-part .sign-up{
+        width: 60px;
+        height: 20px;
+    }
+    
+    .left-part .sign-in{
+        width: 60px;
+        height: 20px;
+        margin-left: 20px;
+    }
+    
+    .right-part .navbar ul{
+        width: 80%;
+        height: auto;
+        padding-top: 10px;
+        font-size: 13px;
+        margin-left: 15%;
+    }
+
+    .right-part .navbar ul li{
+        padding-left: 5px;
+    }
+    
+    .right-part ul li button{
+        width: 60px;
+        height: 20px;
+        margin-top: 10px;
+        font-size: 10px;
+    }
+    
+    .right-part h1{
+        padding-inline: 40px;
+        padding-top: 50px;
+        font-size: 20px;
+    }
+    
+    .right-part button{
+        width: 100px;
+        height: 20px;
+        margin-inline: 20px;
+        margin-top: 30px;
+    }
+    
+    .right-part span{
+        width: 60%;
+        height: auto;
+        display: flex;
+        justify-content: space-around;
+        /* border: 1px solid red; */
+    }
+    
+    .right-part h3{
+        color: rgb(208, 202, 202);
+        /* padding-inline: 93px; */
+        padding-left: 430px;
+        padding-top: 5px;
+        font-size: 10px;
+        /* border: 1px solid red; */
+    }
+    
+    .right-part .image-1{
+        width: 150px;
+        height: 150px;
+        margin-right: 300px;
+    }
+    
+    .right-part .image-2{
+        width: 250px;
+        height: 200px;
+        padding-left: 50px;
+        margin-top: 30px;
+    }
+
+}
+
+
+
+
+
+
+
+/* media query between 700px and 780px */
+
+@media((min-width:700px) and (max-width:780px)){
+
+    .main-container{
+        width: 100%;
+        height: auto;
+        
+    }
+    
+    .left-part{
+        width: 40%;
+        padding-left: 50px;
+        padding-top: 10px;
+    }
+    
+    .right-part{
+        width: 60%;
+        height: 100vh;
+    }
+    
+    .left-part h2{
+        font-size: 20px;
+    }
+    
+
+    .left-part .black{
+        padding-top: 100px;
+        font-size: 30px;
+    }
+    
+    .left-part .white{
+        font-size: 30px;
+    }
+    
+    .left-part p{
+        /* text-align:justify; */
+        padding-right: 45px;
+        padding-top: 15px;
+        /* font-weight: 700; */
+        font-size: 15px;
+    }
+
+    .left-part span{
+        width: 100%;
+    }
+    
+    .left-part .sign-up{
+        width: 80px;
+        height: 20px;
+    }
+    
+    .left-part .sign-in{
+        width: 80px;
+        height: 20px;
+        margin-left: 20px;
+    }
+    
+    .right-part .navbar ul{
+        width: 70%;
+        height: auto;
+        padding-top: 10px;
+        font-size: 13px;
+        margin-left: 15%;
+    }
+
+    .right-part .navbar ul li{
+        padding-left: 5px;
+    }
+    
+    .right-part ul li button{
+        width: 80px;
+        height: 20px;
+        margin-top: 10px;
+        font-size: 10px;
+    }
+    
+    .right-part h1{
+        padding-inline: 30px;
+        padding-top: 50px;
+        font-size: 30px;
+    }
+    
+    .right-part button{
+        width: 100px;
+        height: 20px;
+        margin-inline: 30px;
+        margin-top: 30px;
+    }
+    
+    .right-part span{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-around;
+        /* border: 1px solid red; */
+    }
+    
+    .right-part h3{
+        color: rgb(208, 202, 202);
+        /* padding-inline: 93px; */
+        padding-left: 150px;
+        padding-top: 5px;
+        font-size: 15px;
+        /* border: 1px solid red; */
+    }
+    
+    .right-part .image-1{
+        width: 200px;
+        height: 150px;
+        margin-right: 150px;
+    }
+    
+    .right-part .image-2{
+        width: 350px;
+        height: 200px;
+        padding-left: 50px;
+        margin-top: 30px;
+    }
+
+}
